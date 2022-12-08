@@ -1,0 +1,109 @@
+header{
+    height: 150px;
+    width: 100%;
+    .iconoch{
+        display: none;
+    }
+    .iconos{
+        display: none;   
+    }
+    .navprincipal {
+        list-style-type: none;
+        position: relative;
+        //@include lg {
+          //  display: flex;
+          // justify-content: space-between;
+          // width: 100%;
+        //}
+        li{
+            padding: 10px;
+            margin: 10px;  
+            position: absolute;
+            text-align: center;
+            //@include lg {
+            //    position: inherit;
+            //    width: 30% ;
+            }
+            .logonav{
+                width: 140px;
+                top: 10px;
+            //    @include lg {
+            //        width: 80px;
+            //    }
+            }
+            .enlaces {
+                color: black;
+                padding: 8px;
+                margin: 5px;
+                text-decoration: none;
+                background-color: #a5cf61;
+                opacity: .8;
+                border-radius: 15px;
+                font-size: 1.5vw;
+                &:hover {
+                    background-color: #a5cf61;
+                    color: black;
+                    opacity: 1;
+                }
+            }
+            .cedc{
+                background-color: pink;
+                &:hover{
+                    background-color: pink;
+                }
+            }
+            
+            .ceh{
+                background-color: rgb(102, 60, 240);
+                &:hover {
+                    background-color: #663cf0;
+                    color: white;
+                }
+            }
+           
+        }
+        .botonn{
+            height: 45px;
+            top: 15px;
+        //    @include lg {
+        //        left: 0;
+        //    }
+        }
+        .Inicio{
+            left: 15%;
+            width: 12%;
+        }
+        
+        .Historia{
+            left: 25%;
+            width: 12%;
+        }
+        
+        .Datos{
+            left: 36%;
+            width: 15%;
+        }
+        
+        .Conoce{
+            left: 50%;
+            width: 14%;
+        }
+        
+        .Donde{
+            left: 70%;
+            width: 18%;
+       //     @include lg {
+       //        display: none;;
+        //    }
+        }
+        
+        .Nosotros{
+            left: 85%;
+            width: 12%;
+        //    @include lg {
+        //        display: none;;
+         //    }
+        //}
+        
+    }
+}

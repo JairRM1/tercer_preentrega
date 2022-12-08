@@ -1,0 +1,154 @@
+.bebida{
+    margin: 0 4%;
+    padding: 10px 4%;
+    font-size: 3vw;
+    font-weight:100;
+    color: white;
+    .bold{
+        font-weight: 800;
+        display: inline;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+}
+h1{
+    margin: 0px 4%;
+    padding: 0px 4%;
+    font-size: 5.5vw;
+    font-weight:bolder;
+    color: #46521e;
+}
+.descubre{
+    margin: 0px 4%;
+    padding: 10px 4%;
+    font-size: 1.9vw;
+    font-weight:200;
+    color: #46521e;
+}
+
+.eventos{
+    margin: 7% 0 0 7%;
+    padding: 5% 0 0 4%;
+    font-size: 3.7vw;
+    font-weight:500;
+    color: #46521e;
+
+}
+.durante{
+    margin: 0px 7% 2% 7%;
+    padding: 10px 4%;
+    font-size: 2.2vw;
+    font-weight:400;
+    color: #8ba33c;
+    
+}
+.eventos2{
+    margin-bottom: 3%;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+    .imE{
+        width: 70%;
+    }
+    .TextE{
+        height: 8%;
+        position: relative;
+        top: -2vw;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .TextE2{
+        height: 9%;
+        border-radius: 50px;
+        text-align: center;
+        width: 60%;
+        font-size: 2.5vw;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+       
+    }
+    .x{
+        background-color: #46521e;
+    }
+    
+    .y{
+        background-color: #8ba33c;
+    }
+    .z{
+        background-color: #b9c88a;
+    }
+    
+    .T1{
+        font-size: 1.4vw;
+        line-height: 100%;
+        background-color: #46521e;
+    }
+    .T2{
+        font-size: 2.5vw;
+        line-height: 180%;
+        background-color: #8ba33c;
+    }
+    .T3{
+        font-size: 2.2vw;
+        line-height: 100%;
+        background-color: #b9c88a;
+    }
+}
+.info{
+    width: 100%;
+    position:absolute;
+    .circinfo{
+        position: absolute;
+        background-color: #46521e;
+        width: 35%;
+        height: 35vw;
+        border-radius: 50%;
+        left: 11%;
+        .textinfo{
+            position: relative;
+            text-align: center;
+            color: white;
+            .textinfob{
+                position: absolute;
+                top: 2.5vw;
+                left: 9vw;
+                font-size: 2vw;
+                font-weight: bold;
+            }
+            .textinfon{
+                position: absolute;
+                top: 12vw;
+                left: 5vw;
+                font-size: 1.5vw;
+            }
+            
+        }
+    }
+    .botoninfo{
+        height: 3.5vw;
+        position: absolute;
+        background-color: rgb(2, 41, 2);
+        border-radius: 50px;
+        text-align: center;
+        width: 15vw;
+        left: 20vw;
+        top: 32vw;
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .imginfo{
+        width: 50%;
+        position: absolute;
+        left: 40%;
+    }
+}

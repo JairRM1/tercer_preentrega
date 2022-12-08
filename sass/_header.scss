@@ -1,0 +1,19 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+$fondos:(
+    i: url(../imagenes/portadaIndex.png),
+    h: url(../imagenes/fondoHistoria.jpeg),
+    dc: url(../imagenes/fondoDatos.jpeg),
+
+);
+
+@each $nombre-fondo, $imagen in $fondos{
+    .fondo_#{$nombre-fondo}{
+        background-image: $imagen;
+    }
+}
